@@ -1,37 +1,44 @@
-<body>
-    <div class="top">
-        <img src="Paw.jpg" style="width:45px;height:45px;">
-        <label style="font-weight:bold;padding-top:7px;font-size:40px;color:#0d86b6">Velasco Systems</label>
-        <img src="Wave.jpg" style="width:81px;height:45px;">
-    </div>
-    <div class="centre">
-        <div class="written">
-            <h2>Your PawTrail account is already confirmed !</h2>
-            <p>You can continue logging in to your PawTrail app.&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>Happy Tracking !</p>
+<html>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+            body{
+                background-color:#e3cd3b;
+                font-family:"Play";
+            }
+            .top{
+                display:flex;
+                flex-direction: row;
+                justify-content:space-between;
+            }
+            .centre{
+                text-align:center;
+            }
+            .written{
+                margin-top:3%;
+                width:25%;
+                background-color:#e6e95b;
+                border-radius:10px;
+                box-shadow:2px 2px 20px 10px rgb(0, 0, 0);
+                padding:5% 8% 4% 8%;
+                display:inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="top">
+            <img src="Paw.jpg" style="width:45px;height:45px;">
+            <label style="font-weight:bold;padding-top:7px;font-size:40px;color:#0d86b6">Velasco Systems</label>
+            <img src="Wave.jpg" style="width:81px;height:45px;">
         </div>
-    </div>
-</body>
-
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
-    body{
-        background-color:#e3cd3b;
-        font-family:"Play";
-    }
-    .top{
-        display:flex;
-        flex-direction: row;
-        justify-content:space-between;
-    }
-    .centre{
-        text-align:center;
-    }
-    .written{
-        padding-top:100px;
-        padding-right:15px;
-        display: inline-block;
-    }
-</style>
+        <div class="centre">
+            <div class="written">
+                <h2>Your PawTrail account is already confirmed !</h2>
+                <p>You can continue logging in to your PawTrail app.&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>Happy Tracking !</p>
+            </div>
+        </div>
+    </body>
+</html>
